@@ -23,20 +23,25 @@ Robust Validation: Used Time-Series Split (train on Jan-Sep, validate on Oct-Dec
 
 Interactive Deployment: Built a Streamlit web app allowing users to simulate weather scenarios and forecast loads dynamically.
 
-🏗️ Project Structure
-
+## 🏗️ Project Structure
+```text
 05-ENERGYML/
 ├── app/                  # Streamlit Web Application
 │   ├── streamlit_app.py  # Main app entry point
 │   └── utils.py          # Inference logic & feature generation
+├── src/                  # Core source code (MLOps)
+│   ├── features.py       # Custom Scikit-learn Transformers
+│   └── models.py         # Model Factory (LGBM, XGBoost, CatBoost)
 ├── notebooks/            # Jupyter Notebooks for experimentation
 │   ├── 01_EDA.ipynb             # Exploratory Data Analysis
 │   ├── 02_preprocessing.ipynb   # Feature Pipeline & Memory Optimization
 │   └── 03_modeling.ipynb        # Model Training & Validation
 ├── models/               # Serialized models (.pkl)
 ├── data/                 # Raw and Processed Data (Not in Git)
+├── scripts/              # Helper scripts
+│   └── generate_val_data.py
 └── requirements.txt      # Python dependencies
-
+```
 
 ⚙️ Installation & Usage
 

@@ -1,3 +1,6 @@
+Try the energy forecasting app at https://energyml.streamlit.app
+Forecast sample ![alt text](image.png)
+Model evaluation ![alt text](image-1.png)
 ⚡ ASHRAE Energy Consumption Predictor
 
 An end-to-end Machine Learning project that forecasts energy consumption for commercial buildings based on historical usage, weather patterns, and building metadata. This project demonstrates a full MLOps workflow from raw data ingestion to an interactive deployment.
